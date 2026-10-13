@@ -4,10 +4,16 @@ The system allows the user to check the soil condition by sending an SMS contain
 When the user receives a message indicating that the soil is dry, they can send the command “pump on” to start the water pump. The LPC2129 processes the command and activates the motor driver, which switches on the pump. The pump runs for 10 minutes and then automatically switches off. The LCD displays the pump status, and the GSM module sends confirmation messages to the user.
 # Components Used 
 LPC2129 Microcontroller
+
 SIM800C GSM Module
+
 Soil Moisture Sensor
+
 16×2 LCD Display
+
 L293D Motor Driver
+
 DC Motor
+
 LM393
 
